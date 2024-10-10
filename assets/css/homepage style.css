@@ -1,0 +1,201 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "jost", sans-serif;
+}
+.container {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+.container .topbar .side1 {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(44, 44, 43);
+  display: flex;
+  align-self: center;
+}
+.container .topbar .side1 #facebook {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+  color: blue;
+}
+.container .topbar .side1 .search {
+  width: 15%;
+  height: 25px;
+  margin-top: 10px;
+  border: 10px;
+  background-color: darkgray;
+  border-radius: 15px;
+  margin-right: 150px;
+}
+.container .topbar .side1 #house {
+  margin-right: 70px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: blue;
+}
+.container .topbar .side1 #play {
+  margin-right: 70px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+}
+.container .topbar .side1 #window {
+  margin-right: 70px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+}
+.container .topbar .side1 #fill {
+  margin-right: 70px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+}
+.container .topbar .side1 #users1 {
+  margin-right: 70px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+}
+.container .topbar .side1 #gap {
+  margin-right: 20px;
+  margin-left: 270px;
+  margin-top: 10px;
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  border-radius: 50px;
+  background-color: rgb(85, 82, 82);
+  font-size: 18px;
+  color: white;
+}
+.container .topbar .side1 #message {
+  margin-right: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  border-radius: 50px;
+  background-color: rgb(85, 82, 82);
+  color: white;
+}
+.container .topbar .side1 #bell {
+  margin-right: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  border-radius: 50px;
+  background-color: rgb(85, 82, 82);
+  color: white;
+}
+.container .topbar .side1 img {
+  margin-right: 70px;
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+.container .topbar .side2 {
+  width: 25%;
+  background-color: rgb(14, 13, 13);
+}
+.container .topbar .side2 p {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-self: center;
+}
+.container .topbar .side2 .nine img {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.container .topbar .side2 .one #users {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: blue;
+}
+.container .topbar .side2 .two #chart {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: rgb(73, 73, 196);
+}
+.container .topbar .side2 .three #date {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: rgb(197, 18, 18);
+}
+.container .topbar .side2 .four #feed {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: rgb(200, 200, 233);
+}
+.container .topbar .side2 .five #group {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: blue;
+}
+.container .topbar .side2 .six #store {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: blue;
+}
+.container .topbar .side2 .seven #play1 {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: blue;
+}
+.container .topbar .side2 .eight #down {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.container .topbar .side2 ._8icz {
+  border-bottom: 1px solid #dadde1;
+  margin: 16px 10px;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-left: 0px;
+}
+.container .topbar .side2 .text {
+  margin-left: 10px;
+}
+.container .topbar .side2 .tech {
+  padding-bottom: 20px;
+}
+.container .topbar .side2 .church img {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.container .topbar .side2 .beauty img {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.container .topbar .side2 .tech img {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}

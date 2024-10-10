@@ -1,0 +1,230 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pay Powdur</title>
+    <link
+      rel="stylesheet"
+      href="asset/lib/bootstrap-icons-1.3.0/bootstrap-icons.css"
+    />
+    <style>
+      .container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .container .child1 {
+        width: 40%;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+      }
+      .container .child1 .box1 {
+        display: flex;
+        margin-bottom: 20px;
+      }
+      .container .child1 .box1 img {
+        width: 20%;
+        margin-right: 20px;
+      }
+      .container .child1 .box1 .two {
+        position: relative;
+        bottom: -25px;
+        left: -50px;
+      }
+      .container .child1 .box1 .button {
+        position: relative;
+        top: 70px;
+        right: 95px;
+      }
+      .container .child1 .box1 .button .plus {
+        border-radius: 5px;
+        border: none;
+        color: white;
+        background-color: blueviolet;
+        font-size: 18px;
+        margin-right: 20px;
+        margin-left: 40px;
+      }
+      .container .child1 .box1 .button .sub {
+        border-radius: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border: none;
+        color: white;
+        background-color: blueviolet;
+        font-size: 18px;
+        margin-left: 30px;
+      }
+      .container .child1 .box1 .one- {
+        position: relative;
+        bottom: 10px;
+      }
+      .container .child1 .box1 .two- {
+        position: relative;
+        bottom: -15px;
+        left: -110px;
+      }
+      .container .child1 .box1 .three {
+        position: relative;
+        bottom: -45px;
+        left: -95px;
+      }
+      .container .child1 .box1 .three- {
+        position: relative;
+        bottom: -35px;
+        left: -240px;
+      }
+      .container .child2 {
+        width: 40%;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+      }
+      .container .child2 p {
+        font-weight: 700;
+      }
+      .container .child2 #username {
+        width: 100%;
+        border: none;
+        height: 30px;
+        margin-bottom: 10px;
+        background-color: rgb(247, 243, 243);
+      }
+      .container .child2 #email {
+        width: 100%;
+        border: none;
+        height: 30px;
+        margin-bottom: 10px;
+        background-color: rgb(247, 243, 243);
+      }
+      .container .child2 #phone {
+        width: 100%;
+        border: none;
+        height: 60px;
+        margin-bottom: 10px;
+        background-color: rgb(247, 243, 243);
+      }
+      .container .child2 #card {
+        width: 100%;
+        border: none;
+        height: 30px;
+        margin-bottom: 10px;
+        background-color: rgb(247, 243, 243);
+      }
+      .container .child2 #date {
+        width: 100%;
+        border: none;
+        height: 30px;
+        margin-bottom: 10px;
+        background-color: rgb(247, 243, 243);
+      }
+      .container .child2 #cvc {
+        width: 100%;
+        border: none;
+        height: 30px;
+        margin-bottom: 10px;
+        background-color: rgb(247, 243, 243);
+      }
+      .container .child2 .bill {
+        margin-left: 100px;
+      }
+      .container .child2 .bill .bi-check-circle-fill {
+        margin-right: 160px;
+        color: blue;
+      }
+      .container .child2 .pay {
+        width: 80%;
+        height: 40px;
+        border: none;
+        margin-left: 10%;
+        background-color: blueviolet;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="child1">
+        <h3 class="name">Pay Powdur</h3>
+        <h1 class="balance">₹730</h1>
+        <div class="box1">
+          <img
+            src="assets/image/WhatsApp Image 2024-09-30 at 19.26.02_cb1475c4.jpg"
+            alt=""
+          />
+          <div>
+            <p>S . C . S</p>
+            <p>₹ <b id="cost"></b></p>
+          </div>
+          <div class="button">
+            <button class="plus" id="add">+</button> <span id="qty"></span>
+            <button class="sub" id="minus">-</button>
+          </div>
+        </div>
+        <p>Subtotal:₹ <b id="subtotal"></b></p>
+        <p>Shipping: ₹ <b id="shippingfee"></b></p>
+        <hr />
+        <h3>Total due: ₹ <b id="total"></b></h3>
+      </div>
+      <div class="child2">
+        <p>Or pay with card</p>
+        <form id="payWith">
+          <label for="email">Email</label>
+          <input type="text" id="username" name="username" required="" />
+          <label for="name">Name</label>
+          <input type="email" id="email" name="email" required="" />
+          <label for="shipping">Shipping address</label>
+          <input type="tel" id="phone" name="phone" required="" />
+          <label for="card">Card information</label>
+          <input type="number" id="card" placeholder="1234 2345 3456 4567" />
+          <label for="date">Expiration date</label>
+          <input type="number" id="date" placeholder="MM/YY" />
+          <label for="cvc">CVC</label>
+          <input type="number" id="cvc" placeholder="cvc" />
+          <p class="bill">
+            <i class="bi bi-check-circle-fill" id="fill"></i>Billing address is
+            the same as shipping
+          </p>
+          <button type="submit" class="pay" id="total2">Pay $134.00</button>
+        </form>
+      </div>
+    </div>
+    <script>
+      //create variables
+      const costOfItem = 542;
+      const shippingFee = 500;
+      let qty = 1;
+      let subTotal = qty * costOfItem;
+      let total = subTotal + shippingFee;
+      document.getElementById("cost").textContent = costOfItem;
+      document.getElementById("qty").textContent = qty;
+      document.getElementById("shippingfee").textContent = shippingFee;
+      document.getElementById("subtotal").textContent = subTotal;
+      document.getElementById("total").textContent = total;
+      document.getElementById("add").addEventListener("click", () => {
+        qty += 1;
+        document.getElementById("qty").textContent = qty;
+        document.getElementById("total").textContent =
+          qty * costOfItem + shippingFee;
+        document.getElementById("total2").textContent =
+          qty * costOfItem + shippingFee;
+        document.getElementById("subtotal").textContent = qty * costOfItem;
+      });
+      document.getElementById("minus").addEventListener("click", () => {
+        if (qty <= 1) return;
+        qty -= 1;
+        document.getElementById("qty").textContent = qty;
+        document.getElementById("total").textContent =
+          qty * costOfItem + shippingFee;
+        document.getElementById("total2").textContent =
+          qty * costOfItem + shippingFee;
+        document.getElementById("subtotal").textContent = qty * costOfItem;
+      });
+    </script>
+  </body>
+</html>

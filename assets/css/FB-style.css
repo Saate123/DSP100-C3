@@ -1,0 +1,412 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 100%;
+  height: 700px;
+  background-color: #f2f5f8;
+  display: flex;
+  justify-content: center;
+}
+.container h2 {
+  color: blue;
+  position: relative;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  left: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container .log-in-container {
+  background-color: white;
+  margin-right: 200px;
+  margin-top: 70px;
+  width: 400px;
+  height: 550px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding-left: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  border-radius: 5px;
+}
+.container .log-in-container h3 {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.container .log-in-container ._8icz {
+  border-bottom: 1px solid #dadde1;
+  margin: 16px 10px;
+  display: flex;
+  align-items: end;
+  min-width: fit-content;
+  margin-left: 0px;
+}
+.container .log-in-container .third {
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 5px;
+}
+.container .log-in-container .firstName {
+  width: 55%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.container .log-in-container .surname {
+  width: 40%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.container .log-in-container .email {
+  width: 95%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.container .log-in-container .password {
+  width: 95%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.container .log-in-container .time {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  margin-right: 60%;
+}
+.container .log-in-container #question {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.container .log-in-container .date {
+  width: 29%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.container .log-in-container .bi-chevron-down {
+  position: relative;
+  right: 20px;
+  font-size: 12px;
+}
+.container .log-in-container .month {
+  width: 29%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.container .log-in-container .year {
+  width: 29%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.container .log-in-container .gender {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  margin-right: 60%;
+}
+.container .log-in-container .female {
+  width: 29%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.container .log-in-container .male {
+  width: 29%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.container .log-in-container .custom {
+  width: 29%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.container .log-in-container .fa-circle {
+  position: relative;
+  right: 20px;
+  font-size: 12px;
+}
+.container .log-in-container .first {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 12px;
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+.container .log-in-container .second {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+.container .log-in-container .text {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 13px;
+  text-decoration: none;
+}
+.container .log-in-container .second span {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 13px;
+  color: rgb(42, 42, 192);
+}
+.container .log-in-container .signin {
+  height: 40px;
+  background-color: #00a400;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border: solid;
+  border-radius: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.container .log-in-container .another {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-left: 24%;
+  margin-right: 24%;
+  color: rgb(42, 42, 192);
+  text-decoration: none;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.container .log-in-container .move {
+  position: relative;
+  width: 20px;
+  background-color: white;
+  color: #8a8d91;
+  left: 40px;
+  top: 19px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 400;
+}
+.container .log-in-container ._8icz {
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+.footer {
+  margin-bottom: 10px;
+}
+.footer .f1 {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: -300px;
+}
+.footer .f1 p {
+  padding-left: 10px;
+  color: #8a8d91;
+}
+#line {
+  border-bottom: 1px solid #dadde1;
+  margin: 16px 10px;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-left: 240px;
+}
+.footer .f1 .add {
+  margin-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.footer .f2 {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: -245px;
+}
+.footer .f2 p {
+  color: #8a8d91;
+  padding-left: 10px;
+}
+.footer .f3 {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: -278px;
+}
+.footer .f3 p {
+  color: #8a8d91;
+  padding-left: 10px;
+}
+.footer .f4 {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: -295px;
+}
+.footer .f4 p {
+  color: #8a8d91;
+  padding-left: 10px;
+}
+.footer h5 {
+  margin-top: 10px;
+  color: #8a8d91;
+  margin-left: 238px;
+}
+
+@media only screen and (max-width: 690px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .container h2 {
+    width: 80%;
+    position: relative;
+    font-size: 30px;
+    left: 230px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .container .log-in-container {
+    width: 850px;
+    height: 550px;
+  }
+  .container .log-in-container h3 {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+  }
+  .container .log-in-container .third {
+    margin-left: 20%;
+    margin-right: 2%;
+    font-size: 15px;
+  }
+  .container .log-in-container #line1 {
+    width: 100%;
+  }
+  .container .log-in-container .firstName {
+    width: 55%;
+  }
+  .container .log-in-container .surname {
+    width: 40%;
+  }
+  .container .log-in-container .email {
+    width: 95%;
+  }
+  .container .log-in-container .password {
+    width: 95%;
+  }
+  .container .log-in-container .time {
+    margin-left: 2%;
+    margin-right: 50%;
+    font-size: 15px;
+  }
+  .container .log-in-container .date {
+    width: 27%;
+  }
+  .container .log-in-container .month {
+    width: 27%;
+  }
+  .container .log-in-container .year {
+    width: 27%;
+  }
+  .container .log-in-container .gender {
+    margin-left: 2%;
+    margin-right: 50%;
+    font-size: 15px;
+  }
+  .container .log-in-container .female {
+    width: 27%;
+  }
+  .container .log-in-container .male {
+    width: 27%;
+  }
+  .container .log-in-container .custom {
+    width: 27%;
+  }
+  .container .log-in-container .first {
+    font-size: 10px;
+  }
+  .container .log-in-container .second {
+    font-size: 10px;
+  }
+  .container .log-in-container .second span {
+    font-size: 10px;
+  }
+  .container .log-in-container .signin {
+    width: 40%;
+    font-size: 15px;
+  }
+  .container .log-in-container .another {
+    font-size: 12px;
+    margin-left: 22%;
+    margin-right: 2%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .footer .f1 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: -47px;
+    font-size: 11px;
+  }
+  #line {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .footer .f2 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: -10px;
+    font-size: 11px;
+  }
+  .footer .f3 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    margin-left: -37px;
+    font-size: 11px;
+  }
+  .footer .f4 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: -47px;
+    font-size: 11px;
+  }
+  .footer h5 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: -577px;
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,105 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGN-IN PAGE</title>
+    <link rel="stylesheet" href="asset/lib/bootstrap-5.0.2-dist/" />
+    <link
+      rel="stylesheet"
+      href="assets/lib/fontawesome-free-6.6.0-web/css/all.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>facebook</h2>
+      <div class="log-in-container">
+        <p>Log in to facebook</p>
+        <form action="">
+          <input
+            type="text"
+            id="username"
+            placeholder="username, email or phone number"
+          />
+          <br />
+          <input type="text" id="password" placeholder="*******" />
+          <!-- <div id="eye" class="button"> -->
+          <i class="fa-regular fa-eye-slash" id="closeEye"></i
+          ><i class="fa-regular fa-eye" id="openEye" style="display: none"></i>
+          <!-- </div> -->
+          <button id="submit">Log in</button> <br />
+          <a href="" class="forgot">forgot password?</a>
+          <p class="move">or</p>
+          <div class="_8icz"></div>
+          <button id="newAcct">Create new account</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="f1">
+        <p>English (UK)</p>
+        <p>Hausa</p>
+        <p>Français (France)</p>
+        <p>Português (Brasil)</p>
+        <p>العربية</p>
+        <p>Bahasa Indonesia</p>
+        <p>Deutsch</p>
+        <p>日本語</p>
+        <p>Italiano</p>
+        <p>हिन्दी</p>
+        <button class="add">+</button>
+      </div>
+      <div class="_8icz" id="line"></div>
+      <div class="f2">
+        <p>Sign Up</p>
+        <p>Log in</p>
+        <p>Messenger</p>
+        <p>Facebook Lite</p>
+        <p>Video</p>
+        <p>Places</p>
+        <p>Games</p>
+        <p>Marketplace</p>
+        <p>Meta Pay</p>
+        <p>MetaStore</p>
+        <p>Meta Quest</p>
+        <p>Ray-Ban Meta</p>
+      </div>
+      <div class="f3">
+        <p>Meta AI</p>
+        <p>Instagram</p>
+        <p>Threads</p>
+        <p>Fundraisers</p>
+        <p>Services</p>
+        <p>Voting Information Centre</p>
+        <p>Privacy Policy</p>
+        <p>Privacy Centre</p>
+        <p>Groups</p>
+        <p>About</p>
+      </div>
+      <div class="f4">
+        <p>Create ad</p>
+        <p>Create Page</p>
+        <p>Developers</p>
+        <p>Careers</p>
+        <p>Cookies</p>
+        <p>Ad</p>
+        <p>Choices</p>
+        <p>Terms</p>
+        <p>Help</p>
+        <p>Contact uploading and non-users</p>
+        <p>Settings</p>
+      </div>
+      <h5>Meta © 2024</h5>
+    </div>
+    <script>
+      document.getElementById("closeEye").addEventListener("click", (e) => {
+        document.getElementById("closeEye").style.display = "none";
+        document.getElementById("openEye").style.display = "block";
+      });
+      document.getElementById("openEye").addEventListener("click", (e) => {
+        document.getElementById("closeEye").style.display = "block";
+        document.getElementById("openEye").style.display = "none";
+      });
+    </script>
+  </body>
+</html>
